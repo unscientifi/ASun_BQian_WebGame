@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* index */
+
+canvas{
+	 border: 1px solid #000;
+	 position: absolute;
+   display: block;
+   margin: 0 auto;
+	 top: 0;
+	 left: 0;
+	 bottom: 0;
+	 right: 0;
+	 width: 900px;
+	 height: 550px;
+	 background-image: url('../images/bg.png');
+ }
+
+#enterButton{
+	 		font-family: 'Press Start 2P', Helvetica, Arial, serif;
+			font-size: 3.5em;
+			display: inline-block;
+			border-radius: 0.12em;
+			box-sizing: border-box;
+			text-decoration: none;
+			background-color: Transparent;
+			color: #FFFFFF;
+			transition: all 0.2s;
+			position: absolute;
+			margin: 0 auto;
+			top: 570px;
+			left: 220px;
+			cursor:pointer;
+}
+/* game */
+body{
+	background-color: #000;
+}
+
+#hero {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+}
+
+#background {
+  background-image: url('../images/background.png');
+  width: 900px;
+  height: 550px;
+  position: absolute;
+  margin: 0 auto;
+  left: 200px;
+}
+
+#laser {
+  background: orange;
+  width: 5px;
+  height: 10px;
+  position: absolute;
+}
+
+.enemy {
+  background: green;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+
+#score {
+  color: #ffffff;
+  font-family: 'Press Start 2P', Helvetica, Arial, serif;
+  font-size: 18pt;
+  position: absolute;
+  left: 220px;
+  top: 20px;
+}
+
+#gameover {
+  color: red;
+  font-family: 'Press Start 2P', Helvetica, Arial, serif;
+  font-size: 40px;
+  position: absolute;
+  left: 450px;
+  top: 280px;
+  visibility: hidden;
+}
+
+button
+{
+  top: 570px;
+  left: 520px;
+  cursor: pointer;
+  padding: 6px;
+  position: relative;
+	font-family: 'Press Start 2P', Helvetica, Arial, serif;
+	font-size: 1.3em;
+	display: inline-block;
+	border-radius: 0.1em;
+	box-sizing: border-box;
+	text-decoration: none;
+	background-color: Transparent;
+	color: #FFFFFF;
+	}
